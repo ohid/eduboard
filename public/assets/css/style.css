@@ -1,0 +1,185 @@
+.navbar{
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.jumbotron{
+	background-color: none;
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: cover;
+	padding: 150px 0px;
+}
+
+
+.jumbotron.auth-jumbo{
+    padding: 50px 0px;
+}
+
+.backend{
+	background-color: none;
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: cover;
+	padding: 50px 0px;
+}
+
+.result_form, .admin_tab {
+    background-color: rgba(255,255,255,0.7);
+    padding: 50px 0px;
+}
+.result_form label{
+	position: relative;
+    top: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+	border-top: 0px;
+	border-bottom: 1px solid #dddddd;
+}
+input#roll{
+	padding-left: 3px;
+}
+input#roll::-webkit-input-placeholder {
+    color:    #666;
+}
+input#roll::-moz-placeholder {
+    color:    #666;
+}
+input#roll::-ms-input-placeholder {
+    color:    #666;
+}
+
+input[type=submit]:focus, input[type=reset]:focus {
+	outline:  none;
+}
+
+.result_form h4{
+	color: #777;
+}
+
+
+.admin_tab .nav{
+	padding-bottom: 30px;
+}
+
+.form-control-half{
+	width: 49%;
+}
+
+.admin_tab .form-inline {
+	display: inline-block;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f2f2f2;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #b2dbfb;
+}
+
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 20px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: rgb(12, 97, 33);
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(12, 97, 33);
+}
+.card-container label{
+    font-size: 14px;
+}
+
+.dbh{
+    margin-top: 10px;
+    text-align: center;
+}

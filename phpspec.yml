@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Eduboard
+        psr4_prefix: Eduboard
+        src_path: app
